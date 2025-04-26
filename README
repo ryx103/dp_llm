@@ -1,0 +1,30 @@
+llm_dp/
+├── src/
+│   ├── config/           # Configuration settings
+│   ├── data/             # Data processing and loading
+│   ├── models/           # Model training logic
+│   ├── utils/            # Visualization utilities
+│   └── evaluation/       # Evaluation metrics
+├── main.py               # Main execution script
+└── README.md             # Project documentation
+
+
+pip install torch transformers datasets evaluate numpy matplotlib seaborn scipy
+
+export CUDA_VISIBLE_DEVICES=2
+
+
+Usage
+Run the main script with default parameters:
+python main.py
+
+Requirements:
+Python 3.8+
+PyTorch
+Transformers
+Datasets
+Evaluate
+NumPy
+Matplotlib
+Seaborn
+SciPy
